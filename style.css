@@ -1,0 +1,70 @@
+/* Reset dan base */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header img {
+  margin-top: 15px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+/* Section */
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h2 {
+  color: #007bff;
+}
+
+/* Skills list */
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills li {
+  background-color: #e9f0ff;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+/* Contact links */
+.contact a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 30px;
+  color: #666;
+}
